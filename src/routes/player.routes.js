@@ -10,5 +10,3 @@ router.get('/profile', verifyToken, playerController.getProfile);
 router.get('/inventory', verifyToken, playerController.getInventory);
 
 module.exports = router;
-
-
