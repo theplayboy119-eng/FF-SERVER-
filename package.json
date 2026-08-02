@@ -1,0 +1,29 @@
+{
+  "name": "freefire-backend-nodeexpress",
+  "version": "1.70.0",
+  "description": "Serveur backend d'émulation complet pour Garena Free Fire (com.dts.freefireth v1.70.0)",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "freefire",
+    "garena",
+    "emulator",
+    "backend",
+    "msdk",
+    "express"
+  ],
+  "author": "Reverse Engineering Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "sqlite3": "^5.1.7"
+  }
+}
