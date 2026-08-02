@@ -1,4 +1,4 @@
-Const db = require('../db/db');
+const db = require('../db/db');
 
 // Helper Promise pour exécuter une requête SQL unique
 const dbGet = (sql, params = []) => {
