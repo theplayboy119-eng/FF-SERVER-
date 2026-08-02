@@ -1,4 +1,4 @@
-const db = require('../db/db');
+Const db = require('../db/db');
 
 // Helper Promise pour exécuter une requête SQL unique
 const dbGet = (sql, params = []) => {
@@ -100,3 +100,6 @@ module.exports = {
   getProfile,
   getInventory
 };
+
+
+Corriger
